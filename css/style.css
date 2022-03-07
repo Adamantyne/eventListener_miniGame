@@ -14,6 +14,11 @@ body{
     justify-content: center;
     transition: all 0.5s linear;
 }
+.abertura img{
+    height: 600px;
+    position: absolute;
+    z-index: 6;
+}
 .caixa{
     position: relative;
     display: flex;
@@ -59,6 +64,16 @@ body{
     width: 100%;
     padding: 10px;
     border: solid 1px rgb(247, 0, 255);
+}
+.parede-superior{
+    position: absolute;
+    z-index: 3;
+    top: 258px;
+    left: 940px;
+}
+.parede-superior img{
+    height: 340px;
+    width: 70px;
 }
 .texto{
     font-size: 18px;
